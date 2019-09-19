@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<meta charset = "utf-8">
+		<title>kizuku.github.io</title>
 
 		<link href='https://fonts.googleapis.com/css?family=Chathura' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -10,12 +11,18 @@
 		<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">	
 		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
 	</head>
 	
 	<body>
-		<h1>
-			Test
-		</h1>
+		<b-card no-body>
+			<b-tabs card justified pills>
+				<b-tab title = "Home" active>
+					<p>Home</p>
+				</b-tab>
+				<b-tab title = "Portfolio">
+					<p>Portfolio</p>
+				</b-tab>
+			</b-tabs>
+		</b-card>
 	</body>
 </html>
