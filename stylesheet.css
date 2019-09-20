@@ -20,6 +20,16 @@ nav {
 footer {
     background-color: #353942;
     color: white;
-    padding: 64px 0 128px 0;
+    padding: 64px 0 64px 0;
     margin-top: 100px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li a {
+    color: unset;
 }
