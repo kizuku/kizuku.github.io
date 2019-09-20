@@ -17,6 +17,24 @@ nav {
     width: 100%;
 }
 
+.content { 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.content p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.content h2 {
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
 footer {
     background-color: #353942;
     color: white;
