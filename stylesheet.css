@@ -1,1 +1,25 @@
 /* Main CSS file */
+nav {
+    margin-bottom: 32px;
+}
+
+#banner {
+    height: 768px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.caption {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #353942;
+    color: white;
+    padding: 64px 0 128px 0;
+    margin-top: 100px;
+}
