@@ -1,10 +1,129 @@
 /* Main CSS file */
+
+/* New css */
+
+nav {
+    background-color: #000c18;
+    /*color: #6688cc;*/
+    color: #B1E5F2;
+    height: 75px;
+    border-bottom: 2px gray solid;
+}
+
+nav h1 {
+    padding-left: 45%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: 'Prompt';
+    font-size: 20px;
+}
+
+#home {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: 'Roboto';
+    /*background-color: #998fc7;*/
+    background-color: #6096ba;
+    color: #b1e5f2;
+}
+
+#home h1 {
+    color: #e7ecef;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.intro {
+    text-align: center;
+    font-family: 'Prompt'
+}
+
+#home h5 {
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 50px;
+}
+
+#home a {
+    margin-left: 35%;
+    padding: 20px;
+    border: 1px cyan solid;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #b1e5f2;
+}
+
+#home h2 {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#about {
+    color: #b1e5f2;
+    background-color: #274c77;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+#about h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Prompt'
+}
+
+#about p {
+    padding-left: 35%;
+    padding-right: 35%;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#about ul {
+    padding-left: 37%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+}
+
+#about li {
+    position: relative;
+}
+
+#work {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #e7ecef;
+    color: #274c77;
+}
+
+#work h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Prompt'
+}
+
+footer {
+    background-color: #000c18;
+    color: #b1e5f2;
+    padding: 64px 0 64px 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li a {
+    color: unset;
+}
+
+/* Old css
 nav {
     margin-bottom: 32px;
 }
 
 #banner {
-    height: 768px;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
@@ -12,7 +131,7 @@ nav {
 
 .caption {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 0;
     width: 100%;
 }
@@ -61,20 +180,4 @@ nav {
     font-family: 'Raleway';
     font-size: 16px;
 }
-
-footer {
-    background-color: #353942;
-    color: white;
-    padding: 64px 0 64px 0;
-    margin-top: 100px;
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0px;
-}
-
-footer ul li a {
-    color: unset;
-}
+*/
