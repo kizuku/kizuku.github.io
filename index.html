@@ -11,45 +11,126 @@
 		<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">	
 		
 		<script src="https://kit.fontawesome.com/046e45e705.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Prompt|Roboto&display=swap" rel="stylesheet">
 
-		<title>kizuku.github.io</title>
+		<title>Zachary Zhao</title>
 	</head>
 	
 	<body>
-		<nav class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-			<div class = "collapse navbar-collapse">
-				<ul class = "navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="projects.html">Projects</a>
-					</li>
-				</ul>
-			</div>
+		<nav class = "navbar navbar-expand-lg fixed-top">
+			<h1>ZACHARY ZHAO</h1> 
+			<ul class = "nav-links">
+				<li><a href = "#about">About</a></li>
+				<li><a href = "#work">Projects</a></li>
+				<li><a href = "Zachary Zhao Resume.pdf">Résumé</a></li>
+			</ul>
 		</nav>
 
-		<div class = "row" id = "banner">
-			<div class = "image text-center">
-				<img src = "images/background.jpg" alt = "background image" class = "img-fluid">
-				<div class = "caption">
-					<h1>Zachary Zhao</h1>
-					<h5>Computer Science Undergrad at UCLA</h5>
-					<h5>Esports Athlete and Videogame Streamer</h5>
-					<h5>San Diego | Los Angeles</h5>
-				</div>
-			</div>
+		<div id = "home">
+			<div class = "intro">
+				<h1>Zachary Zhao</h1>
+				<h2>Software Developer</h2>
+				<!-- Idea: dropdown menu for h4 -- "I am _____"-->
+			</div c>
+			<h5>I work on web apps and other projects in Los Angeles, California.</h5>
+			<a href = "mailto:zachary.m.zhao@gmail.com">Contact Me</a>
 		</div>
 
-		<div class = "content">
+		<div id = "about">
 			<h2>About Me</h2>
 			<p>
-				I'm currently pursuing a Bachelor's degree in Computer Science at UCLA. <br>
-				My interests include web development, robotics, esports, and gaming in general. <br>
-				I led FRC team 1758 in high school as programming captain in competitions across the southeast. <br>
-				I currently play on UCLA's League of Legends team under the name "Kizuku". <br>
-				I also like to play tennis, the violin, and the otamatone.
+				My name is Zachary Zhao, and I'm currently a 3rd year computer science major at UCLA. I've worked on web apps and am currently working to 
+				expand into new project areas like predictive models combined with data mining and AI.
 			</p>
+			<p>
+				On top of being a software developer, I'm also a tennis player, violinist, and esports enthusiast, and I'm interested in robotics as well.
+			</p>
+			<p>
+				Some of the things I have experience working with include:
+			</p>
+			<ul>
+				<li>HTML and CSS</li>
+				<li>NodeJS</li>
+				<li>VueJS</li>
+				<li>C++</li>
+				<li>Python</li>
+				<li>TensorFlow and Keras</li>
+			</ul>
+		</div>
+
+		<div id = "work">
+			<div class = "inner">
+				<h2>Some Projects I've Worked On</h2>
+				<div class = "row">
+					<div class = "project">
+						<div class = "project-header">
+							<h3>LoL Match Data Tool</h3>
+							<div class = "links">
+								<a href = "https://lol-match-data-grabber.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
+								<a href = "https://github.com/kizuku/LoLMatchDataGrabber"><i class = "fab fa-github"></i></a>
+							</div>
+						</div>
+						<p class = "description">
+							In order to make the lives of my team's analysts easier, this tool produces a table of stats for a given match that can be exported to csv and added to spreadsheets.
+						</p>
+						<ul class = "tags">
+							<li>VueJS</li>
+							<li>NodeJS</li>
+							<li>HTML & CSS</li>
+						</ul>
+					</div>
+					<div class = "project">
+						<div class = "project-header">
+							<h3>CRTI</h3>
+							<div class = "links">
+								<a href = "https://github.com/kizuku/CRTI"><i class = "fab fa-github"></i></a>
+							</div>
+						</div>
+						<p class = "description">
+							Improves the efficiency of the code review process for the team that I worked with at Genentech.
+						</p>
+						<div class = "subdiv">
+							<ul class = "tags">
+								<li>AutoIT</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "project">
+						<div class = "project-header">
+							<h3>AutoFSC</h3>
+							<div class = "links">
+								<a href = "https://github.com/kizuku/AutoFSC"><i class = "fab fa-github"></i></a>
+							</div>
+						</div>
+						<p class = "description">
+							Automatically generates the documentation required for a long but simple task that slowed down my team at Genentech.
+						</p>
+						<ul class = "tags">
+							<li>AutoIT</li>
+						</ul>
+					</div>
+					<div class = "project">
+						<div class = "project-header">
+							<h3>FRC Scheduler</h3>
+							<div class = "links">
+								<a href = "https://github.com/kizuku/FRCSchedule"><i class = "fab fa-github"></i></a>
+							</div>
+						</div>
+						<p class = "description">
+							Match schedule display for a provided FRC team at a provided competition.
+						</p>
+						<div class = "subdiv">
+							<ul class = "tags">
+								<li>VueJS</li>
+								<li>NodeJS</li>
+								<li>HTML & CSS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<footer>
@@ -60,12 +141,12 @@
 						<p>developer | esports enthusiast </p>
 					</div>
 					<div class = "col-md">
-						<h5>Contact Me</h5>
+						<h5>Connect With Me</h5>
 						<ul>
 							<li>
-								<a href = "Master Resume.pdf">
+								<a href = "Zachary Zhao Resume.pdf">
 									<i class = "far fa-file"></i>
-									Resume
+									Résumé
 								</a> 
 							</li>
 							<li>

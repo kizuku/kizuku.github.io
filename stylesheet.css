@@ -1,72 +1,215 @@
 /* Main CSS file */
+
+/* New css */
+
 nav {
-    margin-bottom: 32px;
+    background-color: #000c18;
+    /*color: #6688cc;*/
+    color: #B1E5F2;
+    height: 75px;
+    border-bottom: 2px gray solid;
 }
 
-#banner {
-    height: 768px;
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
+nav h1 {
+    margin-left: 45%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: 'Prompt';
+    font-size: 20px;
+    width: 40%;
 }
 
-.caption {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-right: 20px;
 }
 
-.content { 
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 32px;
-    margin-bottom: 32px;
+.nav-links li {
+    margin-right: 30px;
+    font-size: 18px;
 }
 
-.content p {
-    font-family: 'Raleway';
-    font-size: 16px;
-    line-height: 200%;
+.nav-links a {
+    text-decoration: none;
+    border: 1 px rgb(100, 255, 218) solid;
+    border-radius: 5px;
 }
 
-.content h2 {
-    border-bottom: 1px solid gray;
+#home {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: 'Roboto';
+    /*background-color: #998fc7;*/
+    background-color: #6096ba;
+    color: #b1e5f2;
+}
+
+#home h1 {
+    color: #e7ecef;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.intro {
     text-align: center;
+    font-family: 'Prompt'
 }
 
-.content-2 {
+#home h5 {
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 50px;
+}
+
+#home a {
+    margin-left: 35%;
+    padding: 20px;
+    border: 1px rgb(100, 255, 218) solid;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #b1e5f2;
+}
+
+#home h2 {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#about {
+    color: #b1e5f2;
+    background-color: #274c77;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Prompt'
+}
+
+#about p {
+    padding-left: 35%;
+    padding-right: 35%;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#about ul {
+    padding-left: 37%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+}
+
+#about li {
+    position: relative;
+}
+
+.inner {
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 64px;
-    margin-bottom: 32px;
+}
+
+#work {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background-color: #e7ecef;
+    color: #274c77;
+}
+
+#work h2 {
+    padding-bottom: 40px;
     text-align: center;
+    font-family: 'Prompt'
 }
 
-.content-2 h2 {
-    border-bottom: 1px solid gray;
+.project {
+    width: 45%;
+    margin: 20px;
+    display: inline-block;
+    color: #b1e5f2;
+    background-color: #274c77;
+    border: 2px solid #6096ba;
+    border-radius: 5px;
+    position: relative;
 }
 
-.content-2 h4 {
-    border-bottom: 1px solid gray;
+.project-header {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.project{ 
-    margin-left: 64px;
-    margin-right: 64px;
+.project-header h3 {
+    font-family: 'Prompt';
 }
 
-.project p {
-    text-align: left;
-    font-family: 'Raleway';
+.project-header i {
+    color: #b1e5f2;
+    padding-top: 10px;
+}
+
+.tags {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 10px;
+    opacity: 75%;
+}
+
+.tags li {
+    margin-right: 15px;
+}
+
+.subdiv {
+    position: absolute;
+    bottom: 0;
+}
+
+a:link {
+    color: #b1e5f2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b1e5f2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b1e5f2;
+    text-decoration: none;
+    opacity: 50%;
+    background-color: #274c77;
+}
+
+a:active {
+    color: #b1e5f2;
+    text-decoration: none;
+}
+
+.links a {
+    margin-right: 15px;
+}
+
+.description {
+    padding: 10px;
+    font-style: 'Roboto';
     font-size: 16px;
 }
 
 footer {
-    background-color: #353942;
-    color: white;
+    background-color: #000c18;
+    color: #b1e5f2;
     padding: 64px 0 64px 0;
-    margin-top: 100px;
+    padding-top: 50px;
     text-align: center;
 }
 
